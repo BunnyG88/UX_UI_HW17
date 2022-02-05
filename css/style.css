@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+	width: 100%;
+	height: 50px;
+	background-color: #FFFFFF;
+	border-bottom: 3px solid #000000;
+}
+header img{
+	float:left;
+}
+
+.logo {
+	color: #000000;
+	font-weight: bold;
+	text-align: undefined;
+	width: 10%;
+	float: left;
+	margin-top: 8px;
+	margin-left: 25px;
+	letter-spacing: 4px;
+}
+
+nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-right: 25px;
+}
+
+header nav ul {
+	list-style: none;
+	float: right;
+}
+
+nav ul li {
+	float: left;
+	color: #000000;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+
+ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+ul li:hover a {
+	color: #A634D7;
+}
+
+button {
+	border-radius: 12px;
+	background-color: #DEA7F5;
+	border: 2px solid #000000;
+	transition-duration: 0.4s;
+}
+
+
